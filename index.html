@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>🧼 Tali Root</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🧼 Tali Root</h1>
+    <label for="skinType">اختر نوع بشرتك:</label>
+    <select id="skinType">
+      <option value="جافة">جافة</option>
+      <option value="دهنية">دهنية</option>
+      <option value="مختلطة">مختلطة</option>
+      <option value="حساسة">حساسة</option>
+      <option value="عادية">عادية</option>
+    </select>
+    <button onclick="showResult()">Discover</button>
+
+    <div id="result" class="card"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
